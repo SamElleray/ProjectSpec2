@@ -37,7 +37,7 @@ public class Main {
 				rooms.get(chosenRoom).setRoomState(RoomState.full);
 			}
 		} while (booking);
-
+		System.out.println("Hello");
 		// -------------------------------------Picking a
 		// Trainer------------------------------------
 
