@@ -1,14 +1,27 @@
 
 public class Room {
+		
+	private int capacity;
+	private RoomState rs;
+	private int roomNo;
 	
-	Room(int size, RoomState rs)
+	Room(int size, RoomState rs, int rn)
 	{
 		capacity = size;
 		this.rs = rs;
+		roomNo = rn;
+		
+	}
+
+	public int getRoomNo()
+	{
+		return roomNo;
 	}
 	
-	private int capacity;
-	private RoomState rs;
+	public int getCapacity()
+	{
+		return capacity;
+	}
 	
 	public RoomState getRoomState()
 	{
